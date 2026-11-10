@@ -1,0 +1,12 @@
+# Sensitive files — never commit these to the public repo
+Github token.odt
+vercel-recovery-codes-*.txt
+
+# Common secret/credential files (safety net)
+*.env
+.env
+.env.*
+*secret*
+*token*.odt
+*.pem
+*.key
